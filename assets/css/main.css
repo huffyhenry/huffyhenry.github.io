@@ -248,6 +248,7 @@ footer {
 
 .archive-item h2 {
   margin-bottom: 0;
+  padding-top: 0;
   -ms-flex-preferred-size: 110px;
       flex-basis: 110px;
   -ms-flex-negative: 0;
