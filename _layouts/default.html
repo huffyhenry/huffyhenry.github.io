@@ -20,6 +20,7 @@
 
       {{ content }}
 
+      {% unless page.title == "Marek Kwiatkowski" %}
       <footer>
         <p>
           &copy; 2018 Marek Kwiatkowski. Built with
@@ -29,6 +30,7 @@
           <a href="https://www.mathjax.org/">MathJax</a>.
         </p>
       </footer>
+      {% endunless %}
     </main>
 
     <!-- scripts -->
