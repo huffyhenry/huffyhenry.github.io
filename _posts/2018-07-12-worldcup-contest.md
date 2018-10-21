@@ -4,10 +4,10 @@ title: Undermining the integrity of an office prediction contest
 ---
 
 <small>
-_This short write-up was posted 
+_(22 Oct 2018) This short write-up was posted 
 [directly on Github](https://github.com/huffyhenry/dixon-coles-worldcup) two
 days before the 2018 World Cup final. It's not a very serious bit of analysis, 
-but I am still proud of our marital teamwork. (22 Oct 2018)_
+but I am still proud of our marital teamwork._
 </small>
 
 My wife entered a World Cup prediction contest at her workplace.
