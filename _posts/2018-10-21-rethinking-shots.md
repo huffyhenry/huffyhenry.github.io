@@ -120,7 +120,7 @@ I hope that these results, if not all of them entirely novel, are going to
 spark renewed interest in foundational modelling of football.
 
 <small>
-My friends James Yorke, Ben Torvaney, Nikos Overheul and Thom Lawrence
-commented on early results and kindly read an earlier version of the 
-artcle and provided useful feedback.
+_My friends James Yorke, Ben Torvaney, Nikos Overheul and Thom Lawrence
+commented on preliminary results, read an earlier version of the 
+artcle and provided useful, largely ignored feedback._
 </small>
