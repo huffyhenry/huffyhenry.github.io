@@ -21,7 +21,7 @@ shooting frequencies is due to
 [Garry Gelade](http://business-analytic.co.uk/blog/goals-change-games-the-effect-of-game-state-on-attack-intensity/)
 and it was the highlight of the 2015 OptaPro Forum. The new model that I present here is
 related to Garry's and it recovers many of his results, but it also
-yields entirely novel findings. Specifically, I was able to show that the 
+yields findings that I believe are novel. Specifically, I was able to show that the 
 home field advantage is mediated by the quantity rather than the quality of shots, 
 that shooting rates
 differ between not just game states but individual scorelines and that the longer the game
