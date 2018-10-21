@@ -3,10 +3,12 @@ layout: post
 title: Undermining the integrity of an office prediction contest
 ---
 
+<small>
 _This short write-up was posted 
 [directly on Github](https://github.com/huffyhenry/dixon-coles-worldcup) two
-days before the 2018 World Cup final. It's not a serious bit of work, but I am
-still proud of the marital teamwork displayed here._
+days before the 2018 World Cup final. It's not a very serious bit of analysis, 
+but I am still proud of the marital teamwork displayed here._
+</small>
 
 My wife entered a World Cup prediction contest at her workplace.
 Every day of the tournament, the participants predict the exact score
@@ -49,7 +51,13 @@ samples = fit(data, chains=7, iter=4000)  # 7 chains * 2k steps = 14k samples
 predict(samples, team_map, "France", "Croatia", neutral=True, aet=True)
 ```
 which displays the prediction for the final on Sunday:
-![1-0 it is then](assets/figures/worldcup_final.png)
+
+<figure>
+  <img src="assets/figures/worldcup_final.png" />
+  <figcaption>
+  Figure 1: Predicting exact scores is a mug's game.
+  </figcaption>
+</figure>
 
 Over the course of the contest our predictions have often been 0-0 and 1-0,
 with precious few 2-1s. This follows from the low-scoring nature of football,

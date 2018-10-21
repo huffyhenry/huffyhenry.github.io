@@ -8,12 +8,12 @@ at the level of _conversion_. Relatively little attention has been
 paid to how shots arise, despite it being arguably the 
 more important question. I call this process shot _generation_ and its 
 analysis is the main contribution of this post, although I also present a simple
-conversion model for completeness and symmetry. The underlying
-motivation, as always, is to try to understand the underlying dynamics of 
+conversion model for completeness and symmetry. My motivation, as always, 
+is to try to understand the underlying dynamics of 
 football without compromising on statistical rigour.
 
 In the early days of (public) analytics, 
-[Sander IJstma](http://11tegen11.net/2013/03/16/the-next-step-in-football-analytics-game-states/)
+[Sander IJtsma](http://11tegen11.net/2013/03/16/the-next-step-in-football-analytics-game-states/)
 and [Ben Pugsley](https://statsbomb.com/2013/12/score-effects/)
 investigated how the in-game goal difference (dubbed "game state") impacts
 shot ratios. To the best of my knowledge, the first actual model of 
