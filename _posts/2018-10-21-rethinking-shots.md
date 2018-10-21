@@ -5,12 +5,12 @@ title: "Rethinking shots: generation and conversion"
 
 Football analytics today is dominated by analysis of shots, but only
 at the level of _conversion_. Relatively little attention has been
-paid to how and shots arise, despite it being arguably the 
+paid to how shots arise, despite it being arguably the 
 more important question. I call this process shot _generation_ and its 
 analysis is the main contribution of this post, although I also present a simple
 conversion model for completeness and symmetry. The underlying
-motivation, as always, is to try and describe football in more
-mechanistic terms without compromising on statistical rigour.
+motivation, as always, is to try to understand the underlying dynamics of 
+football without compromising on statistical rigour.
 
 In the early days of (public) analytics, 
 [Sander IJstma](http://11tegen11.net/2013/03/16/the-next-step-in-football-analytics-game-states/)
