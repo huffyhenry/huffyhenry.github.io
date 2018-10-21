@@ -23,7 +23,7 @@ and it was the highlight of the 2015 OptaPro Forum. The new model that I present
 related to Garry's and it recovers many of his results, but it also
 yields entirely novel findings and the methodology is quite different.
 
-# Models
+## Models
 
 My generation model draws heavily on the classic Dixon-Coles and
 (especially) Dixon-Robertson papers and uses techniques of survival analysis (for a
@@ -72,7 +72,7 @@ independently of other shots -- I'm going to deal with them at a later
 stage. This process left me with 9439 records. I coded and fitted my
 models in Stan.
 
-# Results
+## Results
 
 The scatter plots on Figure 1 below show the fitted team profiles, that is to say the
 $\alpha$ and $\beta$ coefficients from both models, translated into shot waiting times and
@@ -107,7 +107,7 @@ conversion model was slightly negative, although not statistically different fro
 </figure>
 
 
-# Conclusions
+## Conclusions
 
 By modeling shot generation and shot conversion with separate but parallel models, 
 we learnt the following:
