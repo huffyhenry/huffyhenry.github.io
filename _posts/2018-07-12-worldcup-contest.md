@@ -7,7 +7,7 @@ title: Undermining the integrity of an office prediction contest
 _This short write-up was posted 
 [directly on Github](https://github.com/huffyhenry/dixon-coles-worldcup) two
 days before the 2018 World Cup final. It's not a very serious bit of analysis, 
-but I am still proud of our marital teamwork._
+but I am still proud of our marital teamwork. (22 Oct 2018)_
 </small>
 
 My wife entered a World Cup prediction contest at her workplace.
@@ -17,7 +17,7 @@ Predicting exact scores is a mug's game, but sending my wife back
 with detailed arguments in favour of a proper Asian Handicap setup would 
 have aroused suspicions.
 
-## The group stage
+### The group stage
 I had 3 hours notice to submit the 16 predictions for the group stages, so I 
 did a crude copy & paste job of a pure Dixon-Coles model 
 from [@Torvaney](https://github.com/torvaney)'s excellent 
@@ -26,7 +26,7 @@ To run it, open and run `groups.R` in RStudio, then call `predict(...)` to get
 the probability mass for all scores from 0:0 to 3:3. I picked the likeliest
 score for every game as our prediction.
 
-## The knockout stage
+### The knockout stage
 For the knockout stages I had a little more time, but I spent it reimplementing
 Dixon-Coles in Stan. The one departure from pure Dixon-Coles is counting the
 World Cup games thrice in the model, ensuring that they influence 
