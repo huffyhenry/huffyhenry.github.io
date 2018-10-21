@@ -7,7 +7,7 @@ title: Undermining the integrity of an office prediction contest
 _This short write-up was posted 
 [directly on Github](https://github.com/huffyhenry/dixon-coles-worldcup) two
 days before the 2018 World Cup final. It's not a very serious bit of analysis, 
-but I am still proud of the marital teamwork displayed here._
+but I am still proud of our marital teamwork._
 </small>
 
 My wife entered a World Cup prediction contest at her workplace.
