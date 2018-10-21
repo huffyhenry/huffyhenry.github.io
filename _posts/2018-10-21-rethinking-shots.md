@@ -21,9 +21,15 @@ shooting frequencies is due to
 [Garry Gelade](http://business-analytic.co.uk/blog/goals-change-games-the-effect-of-game-state-on-attack-intensity/)
 and it was the highlight of the 2015 OptaPro Forum. The new model that I present here is
 related to Garry's and it recovers many of his results, but it also
-yields entirely novel findings and the methodology is quite different.
+yields entirely novel findings. Specifically, I was able to show that the 
+home field advantage is mediated by the quantity rather than the quality of shots, 
+that shooting rates
+differ between not just game states but individual scorelines and that the longer the game
+goes on without a shot, the more likely the players are to shoot. In addition, the
+framework presented here has direct applications to performance evaluation and 
+prediction of results, which I hope to discuss in follow-up articles.
 
-## Models
+### Models
 
 My generation model draws heavily on the classic Dixon-Coles and
 (especially) Dixon-Robertson papers and uses techniques of survival analysis (for a
@@ -72,7 +78,7 @@ independently of other shots -- I'm going to deal with them at a later
 stage. This process left me with 9439 records. I coded and fitted my
 models in Stan.
 
-## Results
+### Results
 
 The scatter plots on Figure 1 below show the fitted team profiles, that is to say the
 $\alpha$ and $\beta$ coefficients from both models, translated into shot waiting times and
@@ -107,7 +113,7 @@ conversion model was slightly negative, although not statistically different fro
 </figure>
 
 
-## Conclusions
+### Conclusions
 
 By modeling shot generation and shot conversion with separate but parallel models, 
 we learnt the following:
@@ -122,5 +128,5 @@ spark renewed interest in foundational modelling of football.
 <small>
 _My friends James Yorke, Ben Torvaney, Nikos Overheul and Thom Lawrence
 commented on preliminary results, read an earlier version of the 
-artcle and provided useful, largely ignored feedback._
+article and provided useful, largely ignored feedback._
 </small>
