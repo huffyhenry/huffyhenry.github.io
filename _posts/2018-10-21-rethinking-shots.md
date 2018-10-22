@@ -32,7 +32,7 @@ prediction of results, which I hope to discuss in follow-up articles.
 ### Models
 
 My generation model draws heavily on the classic Dixon-Coles and
-(especially) Dixon-Robertson papers and uses techniques of survival analysis (for a
+(especially) Dixon-~~Robertson~~Robinson papers and uses techniques of survival analysis (for a
 relatively gentle introduction see Chapter 1 of J.F. Lawless'
 "Statistical Models and Methods for Lifetime Data", which at the time
 of writing is easily obtainable in PDF form, as are the two
@@ -128,5 +128,6 @@ spark renewed interest in foundational modelling of football.
 <small>
 _My friends James Yorke, Ben Torvaney, Nikos Overheul and Thom Lawrence
 commented on preliminary results, read an earlier version of the 
-article and provided useful, largely ignored feedback._
+article and provided useful, largely ignored feedback. The data used
+in this analysis was collected by Opta.
 </small>
