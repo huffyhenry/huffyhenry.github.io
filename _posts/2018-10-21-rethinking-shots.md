@@ -129,5 +129,5 @@ spark renewed interest in foundational modelling of football.
 _My friends James Yorke, Ben Torvaney, Nikos Overheul and Thom Lawrence
 commented on preliminary results, read an earlier version of the 
 article and provided useful, largely ignored feedback. The data used
-in this analysis was collected by Opta.
+in this analysis was collected by Opta._
 </small>
