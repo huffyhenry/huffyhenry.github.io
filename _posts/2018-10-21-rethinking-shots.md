@@ -2,6 +2,10 @@
 layout: post
 title: "Rethinking shots: generation and conversion"
 ---
+<small>
+_(30 Jan 2019) The source code for this model is available on
+[https://github.com/huffyhenry/shot-generation](https://github.com/huffyhenry/shot-generation)._
+</small>
 
 Football analytics today is dominated by analysis of shots, but only
 at the level of _conversion_. Relatively little attention has been
