@@ -6,7 +6,7 @@ I have always had a huge soft spot for top-down metrics in soccer. I wrote why
 at length 
 [elsewhere](https://statsbomb.com/2014/05/picking-the-optimal-colombian-xi-for-the-world-cup/),
 but briefly, their central promise to rate players
-in a completely assumption-free fashion. This is in stark constrast with
+in a completely assumption-free fashion. This is in stark contrast with
 mainstream player analytics, which measure
 players' contributions in terms of individual actions that they perform or assist.
 There are good reasons for the proliferation of bottom-up metrics, chief among them feasibility. 
