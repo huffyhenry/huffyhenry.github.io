@@ -9,23 +9,23 @@ but briefly, their central promise to rate players
 in a completely assumption-free fashion. This is in stark constrast with
 mainstream player analytics, which measure
 players' contributions in terms of individual actions that they perform or assist.
-There are good reasons for that, chief among them feasibility. 
+There are good reasons for the proliferation of bottom-up metrics, chief among them feasibility. 
 Because
 goals are so rare in football and players are subsitituted infrequently, it is
 very difficult to tease apart the contributions of individual players without
 additional assumptions.
-In fact, every attempt at a +/- that has been written up in public consists at least in
+In fact, every attempt at a plus-minus that has been written up in public consists at least in
 part of teeth-gnashing and garment-rending brought about by this central problem.
 Conversely, player ratings based on individual actions are easier to build, at
 least from the technical standpoint. What is less appreciated is that they come 
-at a huge price of accepting, largely on faith, that these individual actions 
+at the huge price of accepting, largely on faith, that these individual actions 
 ultimately matter. Because of that, until +/- is conclusively proven dead, it 
 is always going to merit another look.
 
 This post contains no orginal research. I have merely collected my notes and
 links relating to +/- in soccer. Of course, the seminal contributions were
 made in basketball and ice hockey, but I do not review them here. I focus 
-on _adjusted_ +/-, that is where computing each players' contribution is done 
+on _adjusted_ +/-, that is where computing each player's contribution is done 
 while controlling for all other players involved, usually in a massive regression.
 The dependent variable in this regression is called the _target_; in the 
 _classical_ approach, the target is the goal difference. 
