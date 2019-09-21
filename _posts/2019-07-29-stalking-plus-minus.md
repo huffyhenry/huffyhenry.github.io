@@ -2,6 +2,12 @@
 layout: post
 title: Stalking plus-minus
 ---
+<small>
+_(21 Sep 2019) Updated with works reported to me after the original article.
+See also Lars Magnus Hvattum's recent [academic review of plus-minus](https://doi.org/10.2478/ijcss-2019-0001)._
+</small>
+
+
 I have always had a huge soft spot for top-down metrics in soccer. I wrote why
 at length 
 [elsewhere](https://statsbomb.com/2014/05/picking-the-optimal-colombian-xi-for-the-world-cup/),
@@ -79,6 +85,9 @@ elapsed until the present to emphasise current player ability.
 As befits an academic work, the paper is a good
 source of references to previous +/- efforts.
 
+Luis Usier of the 21st Club football consultancy builds a Bayesian +/- model
+which is [featured in the Financial Times](https://www.ft.com/content/19d303ce-889d-11e7-bf50-e1c239b45787).
+
 #### 2018 
 Steven Schultze and Christian-Matthias Wellbrock present 
 an [idiosyncratic +/- model](https://content.iospress.com/articles/journal-of-sports-analytics/jsa225)
@@ -86,7 +95,12 @@ in the Journal of Sports Analytics. Unlike almost all other models considered he
 theirs does not estimate the ratings simultaneously for all players. Instead,
 bookmakers' odds are used to obtain expected match outcomes, and calculations 
 are done for each player separately. An additional novelty is valuing game-changing 
-goals more than those that are not relevant to the game outcome.  
+goals more than those that are not relevant to the game outcome.
+
+Francesca Matano and co-workers 
+[use the player ratings from the FIFA video game](https://arxiv.org/pdf/1810.08032.pdf)
+as priors to develop a Bayesian +/-. The additional information contained in the
+priors decorrelates ratings of players who play together often.
 
 #### 2019
 Lars Magnus Hvattum creates 
@@ -94,4 +108,6 @@ a [series of videos](https://www.youtube.com/channel/UC64jAkIQX-hD3pSnnOmr2MA)
 about +/-, which I have yet to watch; and Garry Gelade
 [models Lars' ratings](http://business-analytic.co.uk/blog/learning-to-love-plus-minus/)
 using on-the-ball event data, thus providing perhaps the first formal connection
-between top-down ratings and individual player actions.
+between top-down ratings and individual player actions. Later on in the year,
+Lars publishes [a review of +/-](https://doi.org/10.2478/ijcss-2019-0001),
+not limited to football, in the International Journal of Computer Science in Sport. 
