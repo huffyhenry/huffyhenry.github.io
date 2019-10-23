@@ -10,7 +10,7 @@ now there is a tiny overlap.
 A [recent article](https://www.nejm.org/doi/full/10.1056/NEJMoa1908483) 
 [paywalled] in the prestigious New England Journal of Medicine addresses the
 long-standing hypothesis that playing football professionally increases the
-risk of neurodegenerative disease later in life. This effect is well-established 
+risk of developing a neurodegenerative disease later in life. This effect is well-established 
 for more
 brutal sports such as boxing and American football. It has always
 been a decent bet that it is also the case for football, but so far we have not had hard 
@@ -35,12 +35,9 @@ Speaking of bias, and study design in general, I have a concern.
 The matching of footballers to controls was done only on the basis of the birth
 year and SIMD of their _last known postcode_. The latter feels like a 
 particularly weak proxy for lifelong exposure to risk factors. In
-addition, disease status surely affects the last postcode,
-with sick people moving to have better access to care and services, or indeed
+addition, disease status is likely entwined with the last postcode,
+with some sick people moving to have better access to care and services, and others
 _not_ moving while their healthy peers retire somewhere nice. 
-If for whatever reason that 
-process happened differentially for footballers and controls, 
-then the study would be confounded and the effect size estimate unreliable.
 All told, without better covariates
 on which to match footballers to controls, I'd have been tempted to save myself 
 the trouble and simply draw a random control group with the same age structure 
@@ -49,7 +46,7 @@ from the general population.
 The biggest question mark hanging over this research is whether the findings can be generalised 
 to the modern game. It is disappointing that this is not 
 discussed in the article nor the accompanying [editorial](https://www.nejm.org/doi/full/10.1056/NEJMe1912071) [also paywalled.]
-Unavoidably, the study had to reach deep into the past for its data,  
+Unavoidably, the study had to reach deep into the past for its data,
 but 1970s (say) Scotland was a particular time and place and, crucially, the sport was also 
 different to what it is today. With the possible exception of Tony
 Pulis' training sessions, football is no longer head-tennis played with a wet medicine ball. 
@@ -61,8 +58,8 @@ to confirm the findings, but
 naturally this would take a very long time. I cannot help but wonder if a compromise
 solution exists, where former players from an era more resembling the modern game
 are enrolled. For such more recent population, more data may also be available
-to perform better matching to controls, and to include the relevant football
-covariates in the analysis (for example the player's usual outfield position and duration of playing career).
+to perform better matching to controls, and to include the relevant football-related
+variables in the analysis (for example the player's usual outfield position and duration of playing career).
 
 Putting the two objections together, I don't think that this article provides
 very strong evidence that footballers playing today are at risk of developing 
