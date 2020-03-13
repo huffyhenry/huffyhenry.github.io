@@ -9,9 +9,7 @@ Seven badly dressed young men and Alexander Grischuk are going to play
 so four cascading tournament tie-break rules are on stand-by.
 The eventual winner gets to live the next several months in a daze of
 LED light, caffeine and false hope before being the guest of
-honour at Magnus Carlsen's re-coronation in Autumn.
-
-In preparation for this exdrawaganza,
+honour at Magnus Carlsen's re-coronation in Autumn. In preparation for this exdrawaganza,
 I built a simple model of chess player strength and used it to forecast
 the outcome tournament. The well-established Elo system can also be used
 for
@@ -25,7 +23,7 @@ I compiled a record of 2700+ on 2700+ violence since 30 November 2016,
 the day Sergey Karjakin lost his championship match to Carlsen. A nice
 feature of the dataset is that for every game the opening played
 is also recorded in the form of the ECO code. I tried to filter out
-rapid and blitz games, but many still remain, in particular from the
+rapid and blitz games, but many remain, in particular from the
 most recent World Cup.
 Overall, I ended up with 3266 games between just 66 players. Perhaps all
 this
@@ -35,7 +33,7 @@ time they spend together explains the uniformly unconscionable wardrobes.
 
 My model is based on
 [Davidson ratings](assets/papers/candidates_davidson1970.pdf), an
-extension of the much better known [Bradley-Terry model](https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model) with ties. The
+extension of the much better known [Bradley-Terry model](https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model). The
 rating of each player is a number between 0 and 1 such that for any
 two players, the ratio of their ratings is the ratio of their respective
 probabilities of winning the encounter. A single additional parameter
@@ -97,9 +95,8 @@ opening information into account. I did it in the quickest and least
 creative way possible, simply making the parameter controlling the draw
 propensity depend on the ECO code. The reality of opening theory and
 elite game preparation is of course
-[infinitely more complex](https://www.qualitychess.co.uk/products/2/349/the_anand_files_by_michiel_abeln/), and when
-strongest or weakest players prefer certain openings, these will appear
-to be less drawish than they objectively are.
+[infinitely more complex](https://www.qualitychess.co.uk/products/2/349/the_anand_files_by_michiel_abeln/). From the modelling perspective, when
+the strongest or weakest players prefer certain openings, these will appear to the model as less drawish than they objectively are.
 Still, the results are interesting:
 
 <figure>
@@ -159,8 +156,8 @@ leads though draws and tiebreaks to a larger extent than
 that of the favourites, but the bias is tiny compared to the
 larger data and design issues mentioned before.
 
-Since at the time of writing it is quite possible that the tournament,
-and/or humanity may be cancelled, I humbly offer a
+Since at the time of writing it is quite possible that the tournament
+and/or humanity will be cancelled, I humbly offer a
 random single simulation as the substitute outcome. It turns out that
 Ding
 put in a career-defining performance and can look forward to
@@ -183,17 +180,17 @@ being ritually mauled by Carlsen later in the year:
 excellent chess content
 and arguably the best live commentary in the business. For the 2020 Candidates,
 they set fire to the last part by employing Nigel Short and
-Lawrence Trent, and expanded into fantasy sports. While I will not
-put a single actual Swiss frank on the predictions of my model, I value
-my time so little that I did wrangle my simulation data to help me make some
+Lawrence Trent, and expanded into fantasy sports instead. While I
+refuse to put a single actual Swiss frank on the predictions of my model, I value
+my time so little that I wrangled my simulation data to help me make some
 of the selections. I record them here, together with the
 expected points:
 
 | Item | Selection | xP   | Note |
 |------|-----------|------|------|
 | Who will win the 2020 Candidates Tournament? | MVL | 10.5 |
-| Pick a player. Every time they win a game you get the number of points in the parenthesis [1] | Giri | 11.7 | FML
-| Pick a player. Every time they win a game, you get the number of points in the parenthesis [2] | MVL | 10.9 |
+| Pick a player. Every time they win a game you get the number of points in the parenthesis | Giri | 11.7 | FML
+| Pick a player. Every time they win a game, you get the number of points in the parenthesis (part deux) | MVL | 10.9 |
 | Pick a player. Every time they lose a game, you get the number of points in the parenthesis | Caruana | 14.2 |
 | Pick a player. Every time they draw a game, you get the number of points in the parenthesis | Nepo | 10.9 | very close
 | Will there be a tie for first place after 14 rounds? | No | 1.50 |
