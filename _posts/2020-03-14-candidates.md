@@ -103,7 +103,7 @@ to be less drawish than they objectively are.
 Still, the results are interesting:
 
 <figure>
-  <img src="assets/figures/candidates_openings.png"
+  <img src="assets/figures/candidates_openings.png" />
 </figure>
 
 In a game between two evenly matched players (i.e. with the ratio of
