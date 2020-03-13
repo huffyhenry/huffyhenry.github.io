@@ -181,7 +181,7 @@ being ritually mauled by Carlsen later in the year:
 excellent chess content
 and arguably the best live commentary in the business. For the 2020 Candidates,
 they set fire to the last part by employing Nigel Short and
-Lawrence Trent, and expanded into fantasy sports instead. While I
+Lawrence Trent, and expanded into [fantasy sports](https://chess24.com/en/read/news/fantasychess) instead. While I
 refuse to put a single actual Swiss frank on the predictions of my model, I value
 my time so little that I wrangled my simulation data to help me make some
 of the selections. I record them here, together with the
