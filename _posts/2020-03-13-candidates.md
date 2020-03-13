@@ -11,7 +11,7 @@ The eventual winner gets to live the next several months in a daze of
 LED light, caffeine and false hope before being the guest of
 honour at Magnus Carlsen's re-coronation in Autumn. In preparation for this exdrawaganza,
 I built a simple model of chess player strength and used it to forecast
-the outcome tournament. The well-established Elo system can also be used
+the outcome of the tournament. The well-established Elo system can also be used
 for
 this purpose and may even yield better predictions. My aim was not to
 compete with Elo, but to try my hand at modelling of chess and
@@ -57,7 +57,7 @@ good. Magnus Carlsen is head and shoulders above everyone else,
 of course, with
 Caruana and Ding Liren peeling away from the rest of the pack.
 Interestingly, my model rates Caruana and Ding as almost exactly equal in
-strength. Thanks to his World Cup win, Teimour Radjabov is very highly
+strength. Thanks to his World Cup win, Teimour Radjabov is also very highly
 rated. But the best way to compare both rating systems
 is in the context of a match-up, so let's instead look at what
 both systems think would happen if everyone ganged up on the
@@ -71,7 +71,7 @@ Both rating systems broadly agree on players' chances in a hypothetical
 match-up against Peter Svidler. The Davidson model does not rate
 Topalov, Eljanov and Adams and (again) overrates Radjabov. Most of the
 players stronger than Svidler fall below the dashed equality line,
-indicating that the Elo system gives them better odds than the
+indicating that the Elo system gives them better odds than my
 model. It turns out that it is not an accident: the Davidson likes
 favourites less than Elo does. This is nowhere more evident than when facing
 Carlsen:
@@ -149,7 +149,8 @@ In the interest of full disclosure, I should say that in 66 (0.7%) of
 the simulations the tournament was still tied after the first three
 tie-breaks (head-to-head, number of wins and Sonneborn-Berger)
 were applied. Implementing multi-way head-to-head ranking made me
-question my life choices and Sonneborn-Berger my sanity, so I stopped
+question my life choices and Sonneborn-Berger threatened my sanity
+ outright, so I stopped
 short of implementing playoffs and instead just discarded these
 simulations. This probably hurts the underdogs, whose path to victory
 leads though draws and tiebreaks to a larger extent than
