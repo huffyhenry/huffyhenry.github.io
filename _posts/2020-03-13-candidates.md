@@ -81,7 +81,7 @@ Carlsen:
 </figure>
 
 Everyone except the three weakest players is now predicted to do better
-against Carlsen than what Elo would have us believe. This striking
+against Carlsen than Elo would have us believe. This striking
  result should
 be taken with a pinch of salt -- the comparison is based on _average_
 Elo and the dataset still has blitz and rapid games in it. But it may be
@@ -143,7 +143,7 @@ odds will also correctly use the most recent Elo ratings, while the model
 treats playing strength as constant over 2016-2020. The blitz and rapid
 games from my dataset further confuse the issue. In conclusion, your
 money will be better spent in your local cheese shop than at the
-bookie's.
+bookies.
 
 In the interest of full disclosure, I should say that in 66 (0.7%) of
 the simulations the tournament was still tied after the first three
