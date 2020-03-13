@@ -196,7 +196,11 @@ expected points:
 | Will there be a tie for first place after 14 rounds? | No | 1.50 |
 | Who will finish with a better score? | Grischuk | 2.05
 | Will both games between Caruana and Ding end in draws? | No | 3.81 | not close
-| What will Giri's final score be? | +1 or better | 1.248 | close
-| What will Vachier-Lagrave's final score be? | +1 or better | 1.638 | not close
+| What will Giri's final score be? | +1 or better | 1.25 | close
+| What will Vachier-Lagrave's final score be? | +1 or better | 1.64 | not close
 | Will Alekseenko finish in last place or in a tie for last place? | No | 1.33
 | Tiebreaker Question: Out of 56 games, how many decisive games will there be in the entire tournament? | 19 |
+
+<small>
+With thanks to Thom Lawrence and James Yorke for inspiration and feedback.
+</small>
