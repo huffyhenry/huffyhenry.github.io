@@ -2,6 +2,9 @@
 layout: post
 title: "Forecasting the Candidates"
 ---
+<small>
+(16 Mar 2020) [Data and code are available on Github.](https://github.com/huffyhenry/forecasting-candidates)
+</small>
 
 On Monday, the 2020 Candidates tournament kicks off in Yekaterinburg.
 Seven badly dressed young men and Alexander Grischuk are going to play
