@@ -9,25 +9,24 @@ Data and code are [available on Github.](https://github.com/huffyhenry/forecasti
 It's this time of the year again. Eight of the world's most 
 sartorially challenged millenials are about to reunite in Yekaterinburg
 and play the second leg of the Candidates tournament. The prize is a lifetime of regret, 
-to be incurred in the world championship match against
-Magnus Carlsen later in the year. But who will the lucky winner be? The favourites
-Fabiano Caruana and Ding Liren disappointed during the first leg. 
-Ian Nepomniachtchi of Russia and Maxime Vachier-Lagrave
-of France emerged as joint leaders. And chess has since become a bona fide
+to be incurred later in the year in the world championship match against
+Magnus Carlsen. But who will the lucky winner be? The favourites
+Fabiano Caruana and Ding Liren disappointed during the first leg
+while Ian Nepomniachtchi and Maxime Vachier-Lagrave
+emerged as joint leaders. And chess has since become a bona fide
 e-sport, with traditional events cancelled and top players competing 
 in online rapid events.
 
 Ahead of this year's tournament, I set out to improve my old
 [model of elite chess](https://kwiatkowski.io/candidates). The new version 
-is still based on Davidson ratings, but with a major twist:
+is still based on Davidson ratings, but with a major upgrade:
 the evolution of players' strengths over time is modelled with a Gaussian
 Process. Classical and rapid chess are put on an equal footing: performance
 in both formats is assumed to be driven by the same underlying playing strength,
-and only the baseline draw probabilities differ. The data comes from 
-[Caissabase](http://caissabase.co.uk/) and [The Week in Chess](https://theweekinchess.com/), 
-and comprises 3617 games between top players since the 2018 Carlsen-Caruana match. 
-I tried hard to strip all blitz, bullet and variant games from the dataset and 
-very few, if any, slipped through.
+and only the baseline draw probabilities differ. The data
+comprises 3617 games between top players since the 2018 Carlsen-Caruana match. 
+I tried hard to strip all blitz and bullet games from the dataset and 
+few, if any, slipped through.
 
 ### The model
 To explain the model, let's ask it what it thinks about the world champion:
@@ -41,7 +40,7 @@ playing strength over the last two and a half years. These individual
 histories may differ significantly from one another, but together they are
 expected to cover the spectrum of possibilities well. 
 The red line summarises them by connecting the mean of the ratings at each date. 
-The story that emerges is one of a prolonged slump since Carlsen's arguably 
+The story that emerges is one of a steady slump since Carlsen's arguably 
 best-ever form following the match against Caruana.
 
 One weakness of the model, shared by many rating systems, is that the
@@ -53,8 +52,10 @@ challenger:
   <img src="../assets/figures/candidates2_caruanavscarlsen.png">
 </figure>
 
-Here each line gives the probability that Caruana would win a classical
-game against Carlsen if we knew that the game was not drawn. It looks like
+Here, each line gives the probability that Caruana would win a classical
+game against Carlsen if we knew that the game was not drawn. In other words,
+the draw probability is discarded and the players' win probabilities are
+rescaled proprtionally to sum up to 100%. It looks like
 Caruana has gained some ground since the 2018 match. Some lines
 even cross the 50% threshold, indicating that Caruana would be favoured to win,
 although overall the model still prefers Carlsen by a comfortable margin.
@@ -63,7 +64,7 @@ upward trend is due to his own improvement and to what extent to Carlsen's slump
 
 ### The Candidates
 Let's have a look at how the eight candidates have fared according to the
-model. We revert to plotting the mean rating again since no suitable baseline exists:
+model. We revert to plotting the mean rating since no suitable baseline exists:
 
 <figure>
   <img src="../assets/figures/candidates2_candidates.png">
@@ -100,7 +101,7 @@ over MVL reflected in the odds? The answer lies in the tie-break rules.
 Currently, MVL has the tie-break on Nepo thanks to his win in their direct
 encounter last year, and in addition has a slight edge in Sonneborn-Berger.
 If the head-to-head tie-break did not exist, Nepo's win probability 
-would be exactly 50%, and MVL's 31.5%. The model may well overestimate the
+would be 50%, and MVL's 31.5%. The model may well overestimate the
 importance of the tie-break -- in particular it does not understand that 
 Nepo will have white pieces against MVL in the second leg. But with only
 seven rounds to go, the likelihood of a tie for first place is more than
@@ -110,9 +111,9 @@ At the time of writing, the betting markets offer odds of 2.75 on Nepo,
 3.0 on MVL, 4.0 on Caruana and 8.0 on Giri. This means that betting both Nepo 
 and MVL is good value according to the model. It is a particularly tempting strategy
 since the overestimation of the tie-break is not an issue. And my gut feeling
-is that the model underestimates MVL somewhat, because he played little 
+is that the model underestimates MVL somewhat, because he has played little 
 (and relatively poorly) during the online boom and surely came better
-prepared for the most important seven games of his life so far.
+prepared for the most important games of his life so far.
 
 ### The rating list
 
@@ -153,22 +154,24 @@ a.k.a. the flex section.
 
 Gaussian Processes are hard but fun. I learnt the most 
 from [Michael Betancourt's tutorial](https://betanalpha.github.io/assets/case_studies/gaussian_processes.html).
-I'm sure that I will now see GPs everywhere and dive deeper into the subject at the first opportunity.
+I am going to see GPs everywhere now.
 The method is computationally costly, however: $\mathcal{O}(n^3)$, where
 $n$ is the number of points at which the value of the process is to be
 estimated. In this case it was around 500, the number of days on which at 
 least one relevant game was played, which meant that the model took 8-10 hours
-to fit.
+to fit. This precluded me from fitting separate correlated rapid
+and classical ratings.
 
 I used this project also as an opportunity to try out 
 [`cmdstanr`](https://github.com/stan-dev/cmdstanr/), the new R interface to 
 [Stan](https://mc-stan.org/). It is already better that the unwieldy `rstan`,
-everything feels simpler and more responsive, but it does choke on big models
+everything feels simpler and more responsive, but it is not yet optimised for
+medium-big models
 like this one (which estimates ~50 players x ~500 parameters). Saving the fit 
-to file would take additional 2-3 hours. But I am not going back
+to file would take additional 2-3 hours, for example. But I am not going back
 to rstan in a million years, and look forward to new versions.
 
-This is likely the last hurrah of the Davidson model for chess as far as
+This is the last hurrah of the Davidson model for chess as far as
 I am concerned. It has clear weaknesses that are probably partly responsible
 for the long sampling times. In particular, it does not distinguish between
 games played with white and black pieces. A better model is needed, and I am 
@@ -177,6 +180,7 @@ length-scale of the Gaussian Process. Some of the lines on the Carlsen
 spaghetti plot do not feel plausible at all.
 
 Lastly, I want to acknowledge [Caissabase](http://caissabase.co.uk/) 
-and [TWIC](https://theweekinchess.com/) again for the data. I processed
-it with the [`bigchess`](https://cran.r-project.org/web/packages/bigchess/index.html)
-package, a lucky find.
+and [TWIC](https://theweekinchess.com/) for the data. I processed
+it with the straightforward 
+[`bigchess`](https://cran.r-project.org/web/packages/bigchess/index.html)
+package.
