@@ -13,14 +13,23 @@ body {
   background-color: #f5f5f5;
   color: #333;
   border-top: 5px solid #333;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Scope One', serif;
   font-weight: 400;
   line-height: 1.5;
 
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, dl,
+p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+article {
+  font-size: large;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, dl,
 blockquote,
 table,
 img,
@@ -34,7 +43,6 @@ blockquote {
   padding: 0 30px;
   border-left: 2px solid #C6C6C6;
 }
-
 
 ul, ol {
   margin-left: 40px;
@@ -111,7 +119,12 @@ dd {
 
 figure {
   text-align: center;
-  padding-bottom: 10px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: smaller;
+  padding-bottom: 20px;
 }
 
 /*

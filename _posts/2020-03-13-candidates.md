@@ -3,7 +3,7 @@ layout: post
 title: "Forecasting the Candidates"
 ---
 <small>
-(16 Mar 2020) [Data and code are available on Github.](https://github.com/huffyhenry/forecasting-candidates)
+_(16 Mar 2020) Data and code are [available on Github.](https://github.com/huffyhenry/forecasting-candidates)_
 </small>
 
 On Monday, the 2020 Candidates tournament kicks off in Yekaterinburg.

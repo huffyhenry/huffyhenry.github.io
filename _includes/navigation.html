@@ -1,11 +1,11 @@
 <nav id="main-navigation">
   {% for link in site.data.links %}
   {% if page.title == link.title %}
-  <a href="{{ link.url }}" title="{{ link.title }}" class="current">{{ link.title }}</a>
+  <a href="{{ link.url }}" title="{{ link.title }}" class="current"><b>{{ link.title }}</b></a>
   {% elsif link.title == "About" and page.title == "Marek Kwiatkowski" %}
-  <a href="{{ link.url }}" title="{{ link.title }}" class="current">{{ link.title }}</a>
+  <a href="{{ link.url }}" title="{{ link.title }}" class="current"><b>{{ link.title }}</b></a>
   {% else %}
-  <a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+  <a href="{{ link.url }}" title="{{ link.title }}"><b>{{ link.title }}</b></a>
   {% endif %}
   {% endfor %}
 </nav>
