@@ -3,10 +3,12 @@ layout: page
 title: Marek Kwiatkowski
 ---
 
-I am a data scientist, biostatistician and sport analytics
-consultant. You can reach me at my cleverly obfuscated email address:
+<p>I am a data scientist, biostatistician and sport analytics
+consultant.</p>
 
-firstname `dot` lastname `at` protonmail `dot` com
+<p>
+    <a href="mailto:marek[dot]kwiatkowski[at]protonmail[dot]com"><img width="16" height="16" src="../assets/images/mail.png"/></a>&nbsp;
+    <a href="https://twitter.com/statlurker" target="_blank"><img width="16" height="16" src="../assets/images/twitter.png"/></a>&nbsp;
+    <a href="https://github.com/huffyhenry" target="_blank"><img width="16" height="16" src="../assets/images/github.png"/></a>&nbsp;
+</p>
 
-I have also public <a href="https://twitter.com/statlurker">Twitter</a>
-and <a href="https://github.com/huffyhenry">Github</a> profiles.

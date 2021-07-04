@@ -3,7 +3,7 @@ layout: post
 title: "Forecasting the Candidates, part 2"
 ---
 <small>
-Data and code are [available on Github.](https://github.com/huffyhenry/forecasting-candidates/tree/master/2021)
+_Data and code are [available on Github.](https://github.com/huffyhenry/forecasting-candidates/tree/master/2021)_
 </small>
 
 It's this time of the year again. Eight of the world's most 
